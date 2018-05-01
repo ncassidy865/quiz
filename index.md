@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+<div class="wrapper">
+		<div id="quiz">
+			<h1>HTML Quiz</h1>
+			<hr style="margin-bottom: 30px;">
+			<p id="question"></p> <!--populating question through javascript in p element-->
 
-You can use the [editor on GitHub](https://github.com/ncassidy865/quiz/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ncassidy865/quiz/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+			<div class="buttons"> <!--Creating four button element for four options-->
+				<button id="btn0"><span id="choice0"></span></button> <!--populating the choices through javascript-->
+				<button id="btn1"><span id="choice1"></span></button>
+				<button id="btn2"><span id="choice2"></span></button>
+				<button id="btn3"><span id="choice3"></span></button>
+			</div>
+			<hr style="margin-top: 60px;">
+			<footer>
+				<p id="progress"></p> <!--Creating currentQuestion(1) of (5)Total Question through javascript-->
+			</footer>
+		</div>
+	</div>
